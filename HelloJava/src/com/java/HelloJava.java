@@ -18,7 +18,20 @@ public class HelloJava {
 		System.out.println(temFilhos);
 		
 		
-
+		//Conversão de valores
+		
+		int x =   10; // Declaração de variavel do tipo  int
+		double d = x; //variável double recebe um tipo int
+		long l = x ; // variavel long recebe um tipo int
+		float f = x; //variável float recebe um tipo int (atenção)
+		short s = 20; // declaração de variável do tipo short
+		x = s; //variavel int recebe um tipo short
+		
+		double valorDouble = 9.99;
+		int valorInt = (int) valorDouble;
+		System.out.println(valorInt);
+		
+		
 		//Print na tela
 		System.out.println("Hello Java");
 	}
