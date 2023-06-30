@@ -22,6 +22,9 @@ public class Operador {
 		
 		result = x % y;	
 		System.out.println(result);
+		
+		result = z - x + y * (x/y);
+		System.out.println(result);
 	}
 
 }
