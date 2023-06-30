@@ -27,6 +27,9 @@ public class HelloJava {
 		short s = 20; // declaração de variável do tipo short
 		x = s; //variavel int recebe um tipo short
 		
+		//Operadores Aritméticos
+		
+		
 		double valorDouble = 9.99;
 		int valorInt = (int) valorDouble;
 		System.out.println(valorInt);
