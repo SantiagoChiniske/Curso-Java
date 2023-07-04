@@ -6,7 +6,7 @@ public class TesteConta {
 		
 		Conta contaCorrente = new Conta();
 		Conta contaPoupanca = new conta();
-		
+		conta contaInvestimento = new conta();
 	}
 
 }
