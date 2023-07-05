@@ -2,7 +2,7 @@ package br.com.fiap.banco;
 
 public class Conta {
 	
-	int agencia;
+	protected int agencia;
 	int numero;
 	double saldo;
 	
@@ -17,12 +17,11 @@ public class Conta {
 		this.agencia = agencia;
 		this.numero = numero;
 		this.saldo = saldo;
-		
-		
+				
 	}
 
 
-	//metodos
+	//metódos
 	public void deposito(double valor) {
 		
 		this.saldo += valor;
