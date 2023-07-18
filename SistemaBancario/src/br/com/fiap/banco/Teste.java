@@ -5,36 +5,22 @@ public class Teste {
 	public static void main(String[] args) {
 		
 		
+		Conta conta1 = new Conta();
 		
-		Conta cc = new Conta();
+		conta1.deposito(1000);
+		conta1.retirar(100);
 		
+		ContaCorrente conta2 = new ContaCorrente();
+		conta2.deposito(1000);
+		conta2.retirar(100);
 		
-		cc.deposito(50); 
-		cc.setAgencia(123); 
-		cc.setNumero(321);
-		
-		cc.deposito(1000);
-		
-		System.out.println(cc.getSaldo());
-		
-		
-		Conta poupanca = new Conta(111,222,1000);
-		
-		poupanca.retirar(50);
-		
-		System.out.println(poupanca.getSaldo());
+		Conta conta3 = new ContaCorrente();
+		conta3.deposito(1000);
+		conta3.retirar(100);
 		
 		
-		Conta cc2 = null;
-		
-		if(cc2 != null){
-			
-			cc2.deposito(1000);
-		
-		
-		
-		
-		}
-
-	}
+		System.out.println("Conta1:"+ conta1.getSaldo());
+		System.out.println("Conta2:"+ conta2.getSaldo());
+		System.out.println("Conta3:"+ conta3.getSaldo());
+}
 }
